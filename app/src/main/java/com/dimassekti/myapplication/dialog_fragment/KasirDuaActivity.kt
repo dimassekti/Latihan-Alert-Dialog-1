@@ -32,6 +32,7 @@ class KasirDuaActivity : AppCompatActivity() {
                 tv_jumlah.text = "Jumlah : $jumlah"
                 tv_total_harga.text = "Total : ${totalHarga.toString()}"
 
+
                 AlertDialogFragment(totalHarga.toString()).show(supportFragmentManager, null )
 
 //                tv_kembalian.text = "Kembalian : ${kembalian.toString()}"
